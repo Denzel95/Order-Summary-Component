@@ -1,0 +1,31 @@
+@media screen and (max-width: 400px) {
+  .main-container {
+    margin: 50px 20px;
+    justify-content: flex-start;
+    min-height: 500px;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .txt {
+    font-size: 14px;
+  }
+
+  .hd2,
+  .price-dlr,
+  .link1 {
+    font-size: 12px;
+  }
+
+  .price,
+  .btn1 {
+    width: 80%;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 12px;
+  }
+}

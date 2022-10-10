@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  max-width: 400px;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+}
+
+.hero {
+  width: 100%;
+  z-index: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.txt {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #9e9eae;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.price {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  margin-top: 30px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.bg-img {
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.price-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.hd2 {
+  font-size: 14px;
+}
+
+.price-dlr {
+  font-size: 16px;
+  color: #9e9eae;
+}
+
+.link1 {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.link1:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  font-weight: bold;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: none;
+  width: 90%;
+  /* height: 40px; */
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 8px 15px hsla(245, 75%, 52%, 0.425);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.btn1:hover {
+  opacity: 0.8;
+}
+
+.btn2 {
+  border: none;
+  font-size: 16px;
+  color: #656b85;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60%;
+  background-color: transparent;
+  margin-bottom: 30px;
+  transition: ease-in-out 0.3s;
+}
+
+.btn2:hover {
+  color: rgb(14, 14, 68);
+}
